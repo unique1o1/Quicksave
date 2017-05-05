@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Yunik",
+  "version": "0.1",
+   "description": "press 's' while hovering over image to save it quicker.",
+  "author": "Yunik Maharjan <yunik.maharjan@gmail.com>",
+  "homepage_url": "https://github.com/unique1o1/quicksave",
+  	"manifest_version": 2,
+"content_scripts": [
+ {
+    "matches": [
+      "*://*/*"
+    ],
+    "js": ["content.js"]
+  }
+],
+"browser_action": {
+  "default_icon": "icon.png"
+},
+"icons": {
+		"144": "icon.png"
+	}
+}
+
+
