@@ -14,9 +14,15 @@ Press 's' while hovering over image to save images quicker.
 
   ```
   Go to chrome://extensions
-  
+
   Drag and Drop the downloaded folder.
   ```
 
 ## Reference
-- [Trigger mouseover event for specific element](http://stackoverflow.com/questions/43806176/how-to-trigger-mouseover-event-only-for-an-img-element-using-javascript/43806433#43806433)
+- [Trigger mouseover event for specific element](http://stackoverflow.com/questions/43806176/how-to-trigger-mouseover-event-only-for-an-img-element-using-jav$
+
+#### Note
+Doesn't works for facebook images(for now).
+
+
+
