@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Yunik",
-  "version": "0.1",
+  "version": "0.2",
    "description": "Press 's' while hovering over image to save images quicker.",
   "author": "Yunik Maharjan <yunik.maharjan@gmail.com>",
   "homepage_url": "https://github.com/unique1o1/quicksave",

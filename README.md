@@ -3,6 +3,9 @@
 
 Press 's' while hovering over image to save images quicker.
 
+So why use quciksave just to save 2 seconds of time your say.
+Quciksave also saves you trouble from going into the full image link to save full resolution images.
+![screenrecoder](http://i.imgur.com/J2nwa42.gif)
 ### Installing
 
 - Clone the repo.

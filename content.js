@@ -1,31 +1,25 @@
 
-// const imgs = document.getElementsByTagName('img');
-
-// const map = fn => x => Array.prototype.map.call(x, fn);
-
-// 	alert("wow");
-// map(img => {
-//   img.addEventListener('mouseover', (e) => {
-    
-
-// saveFile(e.target.src);
-//   });
- 
-// })(imgs);
 var isHovered = false;
-var filename;
+var global;
 const imgs = document.getElementsByTagName('img');
 
 const map = fn => x => Array.prototype.map.call(x, fn);
 
 map(img => {
   img.addEventListener('mouseover', (e) => {
-     filename=e.target.src;
-     hoveredBox();
+    var a = e.target.closest("a");
+    if (a && a.getAttribute('href')) {
 
+      global = e.target.closest("a").getAttribute('href');
+      console.log(global)
+    } else {
+      global = e.target.src;
+      console.log(global)
+    }
+    hoveredBox();
   });
-img.addEventListener('mouseleave', (e) => {
-   isHovered=false;
+  img.addEventListener('mouseleave', (e) => {
+    isHovered = false;
   });
 
 
@@ -37,17 +31,15 @@ document.addEventListener('keypress', keyDown);
 function hoveredBox() {
   isHovered = true;
 }
+
 function keyDown(event) {
   if (!isHovered) return;
   var key = event.keyCode;
-  if(key === 115) {
-  	// alert(filename);
-    saveFile(filename);
+  if (key === 115) {
+    saveFile(global);
   }
 
 }
-
-
 
 
 // Download a file form a url.
