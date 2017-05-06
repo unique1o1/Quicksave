@@ -19,7 +19,7 @@ Press 's' while hovering over image to save images quicker.
   ```
 
 ## Reference
-- [Trigger mouseover event for specific element](http://stackoverflow.com/questions/43806176/how-to-trigger-mouseover-event-only-for-an-img-element-using-jav$
+- [Trigger mouseover event for specific element](http://stackoverflow.com/questions/43806176/how-to-trigger-mouseover-event-only-for-an-img-element-using-jav$)
 
 #### Note
 Doesn't works for facebook images(for now).
