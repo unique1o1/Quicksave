@@ -28,5 +28,9 @@ Quciksave also saves you trouble from going into the full image link to save ful
 #### Note
 Doesn't works for facebook images(for now).
 
+Feel free to [Open an issue](https://github.com/unique1o1/Quicksave/issues).
 
+### License
+
+## MIT © 2018 unique1o1
 
